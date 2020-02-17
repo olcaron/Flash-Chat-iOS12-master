@@ -1,17 +1,4 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
-
 # Flash-Chat
-
-## Podfile Configuration
-```
-post_install do |installer|
-    installer.pods_project.targets.each do |target|
-        target.build_configurations.each do |config|
-            config.build_settings['CLANG_WARN_DOCUMENTATION_COMMENTS'] = 'NO'
-        end
-    end
-end
-```
 
 
 ## Our Goal
@@ -21,8 +8,6 @@ One of the most fundamental component of modern iOS apps is the Table View. Tabl
 ## What you will create
 
 Flash Chat is an internet based messaging app similar to WhatsApp, the popular messaging app that was bought by Facebook for $22 billion. We will be using a service called Firebase as a backend data server to store and retrieve our messages from the cloud. 
-
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/Flash%20Chat.gif)
 
 
 ## What you will learn
@@ -40,5 +25,3 @@ Flash Chat is an internet based messaging app similar to WhatsApp, the popular m
 
 
 >This is a companion project to The App Brewery's Complete App Developement Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](Documentation/readme-end-banner.png)
